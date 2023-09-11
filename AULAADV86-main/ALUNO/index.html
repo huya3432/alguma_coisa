@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>C85</title>
+		<!--LINK DO CSS-->
+		<link rel="stylesheet" href="style.css">
+		<!--ADICIONE O LINK DO FABRIC-->
+		<script src="fabric.js">
+		</script>
+
+		<!--LINK BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<!--ADICIONE UMA CLASS CHAMADA: bodyBackground-->
+	<body class="bodyBackground">
+		<center>
+			<!--adicione a class btn-primary que adiciona um fundo azul com a fonte em branco.-->
+			<h2 class="btn-primary">mInErAfT</h2>
+
+			<!-- adicione uma class btn-danger que adiciona um fundo vermelho com a fonte em branco.-->
+			<div id="headInfo" class="btn-danger">
+				<!--adicione duas tags span com os id's dentro da tag h3-->
+				<h3>Largura atual  = <span id="currentWidth">30</span></h3>
+				<h3>Altura atual  = <span id="currentHeight">30</span></h3>
+			</div>
+			<!--adicione a tag canvas com largura de 1000 por altura de 600-->
+			<canvas width="1000" height="600" id="myCanvas"></canvas>
+			<div id="cor">
+				<h3> [T- madeira] [D - verde escuro] [L - verde claro] [G - Cria qualquer desenho]
+					 [W - Parede] [Y - Parede amarela] [U - Bloco especial] [R - Telhado] <br> [C - Nuvem]
+					 [Shift + P - Aumenta] [Shift + M - Diminui]
+					</h3>
+				</div>
+	
+		</center>
+
+		<script src="main.js"></script>
+
+	</body>
+</html>
